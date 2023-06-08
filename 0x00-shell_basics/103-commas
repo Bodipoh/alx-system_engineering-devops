@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap1 | sort -d -k1.1,1.2 -k1.3
+ls -Ap1
