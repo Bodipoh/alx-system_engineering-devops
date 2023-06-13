@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Enter input text: " && read input && echo "$input" | tr 'Ac' 'Ze'
