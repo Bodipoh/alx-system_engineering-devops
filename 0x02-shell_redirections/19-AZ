@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Enter input text: " && read input && echo "$input" | tr 'Ac' 'Ze'
+sed -i 's/A/Z/g; s/c/e/g'
